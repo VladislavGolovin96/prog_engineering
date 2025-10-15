@@ -1,0 +1,27 @@
+# ====== Core scientific stack ======
+numpy==1.26.4
+pillow>=10.4.0
+tqdm
+requests
+matplotlib
+soundfile
+
+# ====== Hugging Face / NLP ======
+transformers>=4.45.0
+sentencepiece
+tiktoken
+
+# ====== Computer Vision ======
+opencv-python==4.10.0.84
+timm==0.9.16
+# ====== PyTorch (ставить из PyTorch index URL) ======
+torch
+torchvision
+torchaudio
+
+# ====== TensorFlow for Apple Silicon ======
+tensorflow-macos==2.16.2
+tensorflow-metal==1.2.0
+tensorflow_hub
+soundfile
+
